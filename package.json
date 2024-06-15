@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/micfig76/goit-project-01-06-FHB.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-project-01-06-FHB/",

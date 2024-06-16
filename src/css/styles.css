@@ -24,6 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+<<<<<<< HEAD
   --black: #000000;
 --bgcolor: #AE1332;
 --green: #A4CB66;
@@ -39,4 +40,21 @@
 --orange: #F47F4C
 --kiwi: #98B37E
 --raspberry: #E03F5E
+=======
+--black: #000000;
+--bgcolor: #AE1332;
+--green: #A4CB66;
+--yellow: #F5CE13;
+--white: #FFFFFF;
+--strawberry: #F8766B;
+--banana: #EDD251;
+--watermelon: #9DC262;
+--lime: #BFD663;
+--apple: #E93F29;
+--peach: #DB4F4B;
+--plum: #9B5366;
+--orange: #F47F4C;
+--kiwi: #98B37E;
+--raspberry: #E03F5E;
+>>>>>>> 04dec94a51a599f0e004053ed74fa863371a8e0f
 }

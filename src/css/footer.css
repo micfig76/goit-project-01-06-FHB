@@ -15,13 +15,16 @@
   display: flex;
   gap: 8px;
 }
-
+.container {
+  width: 1280px;
+  /* margin: 0 auto; wyśrodkowanie nie działą */
+}
 .footer-container {
   display: flex;
 }
 
 .footer-right {
-  display: block;
+  display: flex;
   width: 184px;
   height: 200px;
 }

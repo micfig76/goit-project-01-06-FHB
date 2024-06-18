@@ -2,11 +2,9 @@
     background-color: #AE1332;
     width: 1280px;
 }
-
 * {
     margin: 0
 }
-
 .fruits-header {
     width: 624px;
     height: 44px;
@@ -23,7 +21,6 @@
     padding-top: 150px;
 
 }
-
 .fruits-paragraph {
     font-size: 14px;
     font-weight: 400;
@@ -34,7 +31,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .div-fruits-paragraph {
     width: 547px;
     height: 54px;
@@ -43,55 +39,43 @@
     padding-top: 14px;
     padding-bottom: 44px;
 }
-
 .fruit-card {
     --card-width: 390px;
 }
-
 .fruits-cards {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     gap: 24px;
 }
-
 .strawberry {
     background-color: #F8766B;
 }
-
 .banana {
     background-color: #EDD251;
 }
-
 .watermelon {
     background-color: #9DC262;
 }
-
 .lime {
     background-color: #BFD663;
 }
-
 .apple {
     background-color: #E93F29;
 }
-
 .peach {
     background-color: #DB4F4B;
 }
-
 .plums {
     background-color: #9B5366;
 }
-
 .orange {
     background-color: #F47F4C;
     margin-bottom: 24px;
 }
-
 .kiwi {
     background-color: #98B37E;
 }
-
 .item-card {
     width: 389px;
     height: 465px;
@@ -100,14 +84,12 @@
     align-items: center;
 
 }
-
 .fruit-name {
     font-size: 32px;
     padding-left: 24px;
     padding-top: 64px;
     color: #fff;
 }
-
 .fruit-type {
     padding-left: 24px;
     padding-top: 7px;
@@ -117,10 +99,7 @@
     left: 24px;
     color: #fff;
     font-size: 16px;
-
-
 }
-
 .fruit-price {
     padding: 15px 42px 15px 42px;
     gap: 10px;
@@ -130,12 +109,10 @@
     margin-left: 24px;
     display: flex;
 }
-
 .fruit-position {
     margin-bottom: 5px;
     margin-left: 47px;
 }
-
 .order-button {
     width: 114px;
     height: 114px;
@@ -143,21 +120,20 @@
     background-color: #9DC262;
     transform: rotate(-14deg);
 }
-
 .div-button-fruit {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .div-fruits-paragraph {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
 }
-
 .organic-fruit {
     display: flex;
-
 }
+.shadow {
+    box-shadow: 0 10px 6px -6px #000000;
+    }

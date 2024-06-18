@@ -1,5 +1,33 @@
+/* * {
+  margin: 0;
+} */
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+/* LEWA STRONA  */
+
+.footer-left {
+  margin-left: 32px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 .logo-icon {
   fill: #ae1332;
+}
+.banana {
+  overflow: hidden;
+  width: 349px;
+  height: 179px;
+  border-radius: 100px;
+}
+.banana-foto {
+  transform: translateY(-15%);
 }
 
 .company-name {
@@ -14,19 +42,29 @@
 .logo-company-div {
   display: flex;
   gap: 8px;
-}
-.container {
-  width: 1280px;
-  /* margin: 0 auto; wyśrodkowanie nie działą */
-}
-.footer-container {
-  display: flex;
+  margin-top: 20px;
+  justify-content: center;
 }
 
-.footer-right {
+/* CENTRUM - NAV  */
+
+.nav-list {
   display: flex;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ae1332;
+  margin-left: 243px;
+}
+
+/* PRAWA STRONA  */
+.footer-right {
   width: 184px;
   height: 200px;
+  margin-left: 232px;
 }
 
 /* SOCIALMEDIA  */
@@ -51,15 +89,19 @@
   align-items: center;
   justify-content: center;
 }
-
-.contact {
-  display: block;
-  width: 100%;
+.sm-links {
+  margin-bottom: 40px;
 }
+/* ADRES */
+
 .contact p {
   color: #ae1332;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+.address {
+  letter-spacing: -0.02em;
+  margin-top: 20px;
 }

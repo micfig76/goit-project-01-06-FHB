@@ -4,10 +4,18 @@
   | default @import url()
   |============================
 */
+
+
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./footer.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

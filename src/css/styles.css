@@ -8,6 +8,7 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./footer.css');
+@import url('./modal.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -24,19 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
---black: #000000;
---bgcolor: #AE1332;
---green: #A4CB66;
---yellow: #F5CE13;
---white: #FFFFFF;
---strawberry: #F8766B;
---banana: #EDD251;
---watermelon: #9DC262;
---lime: #BFD663;
---apple: #E93F29;
---peach: #DB4F4B;
---plum: #9B5366;
---orange: #F47F4C;
---kiwi: #98B37E;
---raspberry: #E03F5E;
+  --black: #000000;
+  --bgcolor: #ae1332;
+  --green: #a4cb66;
+  --yellow: #f5ce13;
+  --white: #ffffff;
+  --strawberry: #f8766b;
+  --banana: #edd251;
+  --watermelon: #9dc262;
+  --lime: #bfd663;
+  --apple: #e93f29;
+  --peach: #db4f4b;
+  --plum: #9b5366;
+  --orange: #f47f4c;
+  --kiwi: #98b37e;
+  --raspberry: #e03f5e;
 }

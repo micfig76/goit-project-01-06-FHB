@@ -158,6 +158,9 @@
     margin-bottom: 12px;
   }
 }
+.strawberry {
+  background-color: #ae1332;
+}
 .apple {
   background-color: #edd251;
 }
@@ -349,13 +352,4 @@
   border: 2px solid var(--color-green);
   color: var(--color-green);
   background-color: var(--color-white);
-}
-.strawberry {
-  background-color: #f8766b;
-}
-.apple {
-  background-color: #edd251;
-}
-.fruits {
-  background-color: #9dc262;
 }

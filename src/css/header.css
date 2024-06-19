@@ -34,3 +34,18 @@
 .nav-link:focus {
   color: #747bff;
 }
+.company {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.logo-text {
+  padding-left: 8px;
+}
+.basket {
+  display: flex;
+  
+  width: 28px;
+  height: 28px;
+
+}

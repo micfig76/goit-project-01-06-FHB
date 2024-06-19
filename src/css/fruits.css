@@ -87,7 +87,7 @@
 .fruit-name {
     font-size: 32px;
     padding-left: 24px;
-    padding-top: 64px;
+    padding-top: 4px;
     color: #fff;
 }
 .fruit-type {
@@ -134,6 +134,15 @@
 .organic-fruit {
     display: flex;
 }
-.shadow {
-    box-shadow: 0 10px 6px -6px #000000;
-    }
+/* .shadow {
+     box-shadow: 0 10px 6px -6px #000000;
+    width: 195px;
+     height: 38px;
+     top: 238px;
+     opacity: 0.1px;
+     background-color: rgba(0, 0, 0, 0.1);
+     border-radius: 70%;
+     position: relative;
+     margin: auto;
+        } */
+    

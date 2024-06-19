@@ -23,7 +23,6 @@
     padding-top: 150px;
 
 }
-
 .fruits-paragraph {
     font-size: 14px;
     font-weight: 400;
@@ -58,27 +57,21 @@
 .strawberry {
     background-color: #F8766B;
 }
-
 .banana {
     background-color: #EDD251;
 }
-
 .watermelon {
     background-color: #9DC262;
 }
-
 .lime {
     background-color: #BFD663;
 }
-
 .apple {
     background-color: #E93F29;
 }
-
 .peach {
     background-color: #DB4F4B;
 }
-
 .plums {
     background-color: #9B5366;
 }
@@ -118,9 +111,6 @@
     color: #fff;
     font-size: 16px;
 
-
-}
-
 .fruit-price {
     padding: 15px 42px 15px 42px;
     gap: 10px;
@@ -159,5 +149,4 @@
 
 .organic-fruit {
     display: flex;
-
-}
+  }

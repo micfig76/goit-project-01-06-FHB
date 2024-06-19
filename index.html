@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/goit-project-01-06-FHB/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fresh Harvest Box</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-  integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,40 +21,10 @@
 </head>
 <main>
 
-<body>
-  <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item-one">
-          <a href="./howitworks.html" class="nav-link">How It Works</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./fruits.html" class="nav-link">Fruits</a>
-        </li>
-        <li class="nav-item">
-          <a href="./contacts.html" class="nav-link">Contacts</a>
-        </li>
-
-      </ul>
-      <div>
-        <svg width="16" height="16" class="logo-icon">
-          <use href="../img/harvest.svg#icon-logo"></use>
-        </svg>  
-        
-    <span class="company">FRESH HARVEST BOX</span>
-      </div>
-      <div class="clearfix pbs">
-        <svg class="icon icon-home3">
-          <use href="../img/harvest.svg#icon-basket"></use>
-        </svg><span class="name"> icon-home3</span>
-      </div>
-    </nav>
-  </div>
-</header>
-  
-      <div class="fruits-div">
+  <body>
+    <include src="./partials/header.html"></include>
+    
+        <div class="fruits-div">
         <div class="organic-fruits">
             <h2 class="fruits-header">ORGANIC FRUITS</h2>
         </div>
@@ -152,7 +123,7 @@
         </button>
     </div>
 
-  <footer>
+    <footer>
 
   <!-- LEWA STRONA  -->
 
@@ -256,14 +227,14 @@ UT 84104
 </footer>
 
 
-  <section>
-    <h1>Example page title</h1>
-    <!-- Path to images as from index.html file -->
-    <img src="/goit-project-01-06-FHB/assets/javascript-8dac5379.svg" alt="" />
-  </section>
+    <section>
+      <h1>Example page title</h1>
+      <!-- Path to images as from index.html file -->
+      <img src="/goit-project-01-06-FHB/assets/javascript-8dac5379.svg" alt="" />
+    </section>
 
-  <!-- Loads the specified .html file -->
-  <section class="vite-promo">
+    <!-- Loads the specified .html file -->
+    <section class="vite-promo">
   <div class="container">
     <div class="wrapper">
       <h2 class="title">
@@ -311,7 +282,7 @@ UT 84104
 </section>
 
 
-  
-</body>
+    
+  </body>
 
 </html>

@@ -1,0 +1,91 @@
+body {
+    background-color: #AE1332;
+}
+
+.contacts-title {
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    max-height: 128px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 238px;
+    padding: 0 32px 80px 32px;
+    right: 238px;
+    top: -89px;
+    margin: 0;
+    position: absolute;
+
+}
+
+.contacts-fruits {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.melon {
+    width: 792px;
+    height: 502px;
+}
+
+.blackberries {
+    width: 400px;
+    height: 502px;
+}
+
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 32px 80px 32px;
+}
+
+.mini-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.short-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 492px;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.email-form {
+    width: 292px;
+    height: 48px;
+    opacity: 30%;
+    border-radius: 100px;
+    font-size: 14px;
+    border: #FFFFFF 1px;
+    padding: 0;
+    position: relative;
+    left: 48px;
+}
+
+.email-button {
+    width: 102px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #9DC162;
+    color: #FFFFFF;
+    border-color: transparent;
+    position: relative;
+    right: 48px;
+    padding: 0;
+}
+
+.email-container {
+    padding-top: 40px;
+
+}

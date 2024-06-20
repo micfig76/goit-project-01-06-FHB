@@ -1,3 +1,1 @@
-
-import mymodule from './js/modal.js';
-
+import './js/modal.js';

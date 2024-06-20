@@ -1,7 +1,7 @@
-.body {
+/* .body {
     background-color: #AE1332;
     width: 1280px;
-}
+} */
 * {
     margin: 0
 }
@@ -145,4 +145,47 @@
      position: relative;
      margin: auto;
         } */
+ @media (max-width:768px) {
+ .tablet-hidden {
+ display:none;}
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 1170px;
+  min-width: 320px;
+  margin: 0 auto;
+ }
+.responsive {
+ margin:auto;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
     
+}
+}
+@media (max-width: 480px) {
+
+.mobile-hidden {
+    display:none;
+}
+.container-mobile {
+    gap: 5px;
+    max-width: 768px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+}
+.fruits-div {
+    display: flex;
+    justify-content: center;
+    max-height: 1443px;
+    padding-top: 1000px;
+}
+.fruit-card {
+    display: flex;
+    justify-content: center;
+    max-width: 1215px;
+}

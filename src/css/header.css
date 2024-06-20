@@ -1,5 +1,18 @@
 .header {
-  padding: 20px 0;
+  padding: 0;
+}
+
+.top-menu-head {
+  display: flex;
+  text-decoration: none;
+  line-height: 18px;
+  align-items: center;
+  padding: 0 24px;
+  justify-content: space-between;
+  height: 50px;
+  margin: auto;
+  background-color: var(--white);
+  color: var(--headertext);
 }
 
 .nav-list {
@@ -17,5 +30,16 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: var(--hoverfocus);
+}
+
+.company {
+  padding-left: 12px;
+}
+
+.basket {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  color: var(--headertext);
 }

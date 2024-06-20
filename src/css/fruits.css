@@ -1,12 +1,3 @@
-.body {
-  background-color: #ae1332;
-  width: 1280px;
-}
-
-* {
-  margin: 0;
-}
-
 .fruits-header {
   width: 624px;
   height: 44px;
@@ -123,8 +114,7 @@
   margin-bottom: 5px;
   margin-left: 47px;
 }
-
-.button-order {
+.order-button {
   width: 114px;
   height: 114px;
   border-radius: 50%;

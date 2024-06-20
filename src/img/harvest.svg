@@ -44,6 +44,11 @@
     </symbol>
 
 
+<symbol id="arrow" viewBox="0 0 32 32">
+      <path d="M32 4.741 27.259 0v23.704L3.555 0-.001 3.556 23.703 27.26H-.001l4.741 4.741h27.259V4.742z" />
+    </symbol>
+
+
 <symbol id="x-14" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.429" d="M24 8 8 24M8 8l16 16" />
     </symbol>

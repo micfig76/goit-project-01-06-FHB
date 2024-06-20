@@ -4,11 +4,23 @@
   | default @import url()
   |============================
 */
+
+
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./footer.css');
+@import url('./contacts.css');
 @import url('./modal.css');
+@import url('./hero.css');
+@import url('./howitworks.css');
+@import url('./fruits.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -40,4 +52,7 @@
   --orange: #f47f4c;
   --kiwi: #98b37e;
   --raspberry: #e03f5e;
+  --hoverfocus: #747bff
+  --headertext: #AE1332;
+
 }

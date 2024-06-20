@@ -1,0 +1,124 @@
+.how-it-works-section {
+    color: white;
+    text-align: center;
+    margin-top: 260px;
+}
+
+.how-it-works-section .content {
+    width: 624px;
+    height: 156px;
+    gap: 14px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.how-it-works-section h1 {
+    font-size: 40px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    height: 88px;
+    line-height: 44px;
+    margin-bottom: 14px;
+    letter-spacing: -0.4px;
+}
+
+.how-it-works-section p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 526px;
+    height: 54px;
+    text-align: center;
+    margin-bottom: 44px;
+    margin-left: 57px;
+    letter-spacing: -0.4px;
+    text-indent: 6px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 1215px;
+    height: 129px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 44px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.step {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 128px;
+    width: 389px;
+    display: flex;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    background-image: url("img/background-steps.png");  
+}
+
+.step-header {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    margin-bottom: 10px;
+    color: white;
+    background-color: #AE1332;
+    padding: 15px, 42px, 15px, 42px;
+    border-radius: 200px;
+    gap: 10px;
+    width: 136px;
+    height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.step:nth-child(2) .step-header {
+    background-color: #A1C864;
+}
+
+.step:nth-child(3) .step-header {
+    background-color: #F5CE13;
+}
+
+.step-content {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    margin: 0 auto;
+    position: absolute;
+    width: 169px;
+    height: 54px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    margin-left: 175px;
+}
+
+.step:nth-child(2) .step-content {
+    width: 166px;
+    height: 36px;
+}
+
+.step:nth-child(3) .step-content {
+    width: 199px;
+    height: 36px;
+}
+
+.gif{
+    width: 860px;
+    height: 476px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}

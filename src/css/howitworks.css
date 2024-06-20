@@ -129,5 +129,9 @@
 }
 
 .container {
-    margin-bottom: 140px;
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 }

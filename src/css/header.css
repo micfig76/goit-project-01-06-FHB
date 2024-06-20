@@ -35,6 +35,7 @@
 
 .company {
   padding-left: 12px;
+  color: var(--headertext);
 }
 
 .basket {

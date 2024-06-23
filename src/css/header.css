@@ -1,25 +1,27 @@
-.header {
-  padding: 0;
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+  color: var(--headertext);;
+  height: 50px;
+  padding-left: 32px 0;
+  min-width: 1280px;
+  line-height: 18px;
 }
 
-.top-menu-head {
+/* .top-menu-nav {
   display: flex;
-  text-decoration: none;
-  line-height: 18px;
-  align-items: center;
-  padding: 0 24px;
-  justify-content: space-between;
-  height: 50px;
-  margin: auto;
-  background-color: var(--white);
-  color: var(--headertext);
-}
+  
+  
+  } */
 
 .nav-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+  
 }
 
 .nav-link {
@@ -33,9 +35,18 @@
   color: var(--hoverfocus);
 }
 
+.center-feature {
+  display: flex;
+  gap: 8px;
+}
+
+.logo-icon {
+  display: flex;
+}
+
 .company {
-  padding-left: 12px;
   color: var(--headertext);
+  line-height: 18px;
 }
 
 .basket {

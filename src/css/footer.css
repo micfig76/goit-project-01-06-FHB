@@ -1,23 +1,16 @@
-/* * {
-  margin: 0;
-} */
+footer {
+  background-color: #ffffff;
+}
 .container {
-  width: 1280px;
+  width: 375px;
   margin: 0 auto;
+  padding: 32px 0;
 }
 .footer-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
 }
-/* LEWA STRONA  */
-
-.footer-left {
-  margin-left: 32px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
 .logo-icon {
   fill: #ae1332;
 }
@@ -44,6 +37,7 @@
   display: flex;
   gap: 8px;
   margin-top: 20px;
+  margin-bottom: 24px;
   justify-content: center;
 }
 
@@ -58,14 +52,6 @@
   letter-spacing: -0.04em;
   text-align: center;
   color: #ae1332;
-  margin-left: 243px;
-}
-
-/* PRAWA STRONA  */
-.footer-right {
-  width: 184px;
-  height: 200px;
-  margin-left: 232px;
 }
 
 /* SOCIALMEDIA  */
@@ -91,22 +77,23 @@
   justify-content: center;
 }
 .sm-links {
-  margin-bottom: 40px;
+  margin: 44px 0;
 }
 /* ADRES */
 
+.contact {
+  width: 143px;
+  align-items: center;
+  justify-content: center;
+}
 .contact p {
   color: #ae1332;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
-  text-align: left;
+  line-height: 18px;
 }
 .address {
   letter-spacing: -0.02em;
   margin-top: 20px;
-}
-
-.logo-icon {
-  fill: #ae1332;
+  /* text-align: center; */
 }

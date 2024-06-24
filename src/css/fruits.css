@@ -64,7 +64,7 @@
   background-color: #9b5366;
 }
 
-.orange {
+.oranges {
   background-color: #f47f4c;
   margin-bottom: 24px;
 }
@@ -78,7 +78,7 @@
   height: 465px;
   border-radius: 20px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 .fruit-name {
@@ -109,13 +109,12 @@
 }
 
 .fruit-price {
-  padding: 15px 42px 15px 42px;
-  gap: 10px;
   border-radius: 200px;
-  opacity: 0px;
-  justify-content: center;
   margin-left: 24px;
-  display: flex;
+  width: 121px;
+  color:#AE1332;
+  height: 42px;
+  border:none;
 }
 
 .fruit-position {
@@ -149,6 +148,11 @@
 
 .organic-fruit {
     display: flex;
+}
+.order-button-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
 }
 @media (max-width:768px),
 (min-width:320px) {

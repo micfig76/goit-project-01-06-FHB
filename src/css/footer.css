@@ -9,7 +9,12 @@ footer {
 @media (min-width: 375px) and (max-width: 768px) {
   .container {
     width: 768px;
-    background-color: pink;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 1280px;
   }
 }
 
@@ -22,9 +27,24 @@ footer {
   .footer-container {
     flex-direction: row;
     gap: 171px;
-
-    .nav-bar {
-      margin: 80px 0;
+  }
+}
+@media (min-width: 375px) {
+  .contact {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    .left-tab {
+      display: flex;
+      align-items: center;
+      margin-right: 232px;
+      .nav-bar {
+        margin-left: 243px;
+      }
     }
   }
 }
@@ -114,10 +134,4 @@ footer {
   letter-spacing: -0.02em;
   margin-top: 20px;
   /* text-align: center; */
-}
-
-@media (min-width: 375px) and (max-width: 768px) {
-  .contact {
-    text-align: left;
-  }
 }

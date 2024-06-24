@@ -153,6 +153,8 @@
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
+
+
 }
 @media (max-width:768px),
 (min-width:320px) {
@@ -172,13 +174,9 @@
         flex-wrap: wrap;
         
     }
+
 }
 
-@media (max-width:1280px),
-(min-width:769px) {
-    .container-fruit {
-        background-color: #fff;
-    }
-}
+
 
 

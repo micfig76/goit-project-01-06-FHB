@@ -1,103 +1,94 @@
-/* .body {
-    background-color: #AE1332;
-    width: 1280px;
-}
-* {
-    margin: 0
-}
-
 .fruits-header {
-    width: 624px;
-    height: 44px;
-    gap: 0px;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 44px;
-    letter-spacing: -0.04em;
-    margin: auto;
-    color: #fff;
-    box-shadow: 0px 4px 70px 0px #0000001A;
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-
+  /* width: 624px;
+  height: 44px; */
+  /* gap: 0px; */
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  margin: auto;
+  color: #fff;
+  /* box-shadow: 0px 4px 70px 0px #0000001a; */
+  display: flex;
+  justify-content: center;
+  /* padding-top: 150px; */
 }
 .fruits-paragraph {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.04em;
-    color: #fff;
-    box-shadow: 0px 4px 70px 0px #0000001A;
-    align-items: center;
-    justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  color: #fff;
+  box-shadow: 0px 4px 70px 0px #0000001a;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
 }
 
 .div-fruits-paragraph {
-    width: 547px;
-    height: 54px;
-    gap: 0px;
-    opacity: 0px;
-    padding-top: 14px;
-    padding-bottom: 44px;
+  width: 547px;
+  height: 54px;
+  gap: 0px;
+  opacity: 0px;
+  padding-top: 14px;
+  padding-bottom: 44px;
 }
 
 .fruit-card {
-    --card-width: 390px;
+  --card-width: 390px;
 }
 
 .fruits-cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 24px;
 }
 
 .strawberry {
-    background-color: #F8766B;
+  background-color: #f8766b;
 }
 .banana {
-    background-color: #EDD251;
+  background-color: #edd251;
 }
 .watermelon {
-    background-color: #9DC262;
+  background-color: #9dc262;
 }
 .lime {
-    background-color: #BFD663;
+  background-color: #bfd663;
 }
 .apple {
-    background-color: #E93F29;
+  background-color: #e93f29;
 }
 .peach {
-    background-color: #DB4F4B;
+  background-color: #db4f4b;
 }
 .plums {
-    background-color: #9B5366;
+  background-color: #9b5366;
 }
 
 .orange {
-    background-color: #F47F4C;
-    margin-bottom: 24px;
+  background-color: #f47f4c;
+  margin-bottom: 24px;
 }
 
 .kiwi {
-    background-color: #98B37E;
+  background-color: #98b37e;
 }
 
 .item-card {
-    width: 389px;
-    height: 465px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-
+  width: 389px;
+  height: 465px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .fruit-name {
-    font-size: 32px;
-    padding-left: 24px;
-    padding-top: 64px;
-    color: #fff;
+  font-size: 32px;
+  padding-left: 24px;
+  padding-top: 64px;
+  color: #fff;
 }
 
 .fruit-type {
@@ -110,40 +101,53 @@
     color: #fff;
     font-size: 16px;
 
+  padding-left: 24px;
+  padding-top: 7px;
+  width: 40px;
+  height: 24px;
+  top: 109px;
+  left: 24px;
+  color: #fff;
+  font-size: 16px;
+}
+
 .fruit-price {
-    padding: 15px 42px 15px 42px;
-    gap: 10px;
-    border-radius: 200px;
-    opacity: 0px;
-    justify-content: center;
-    margin-left: 24px;
-    display: flex;
+  padding: 15px 42px 15px 42px;
+  gap: 10px;
+  border-radius: 200px;
+  opacity: 0px;
+  justify-content: center;
+  margin-left: 24px;
+  display: flex;
 }
 
 .fruit-position {
-    margin-bottom: 5px;
-    margin-left: 47px;
+  margin-bottom: 5px;
+  margin-left: 47px;
 }
-
 .order-button {
-    width: 114px;
-    height: 114px;
-    border-radius: 50%;
-    background-color: #9DC262;
-    transform: rotate(-14deg);
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  background-color: #9dc262;
+  transform: rotate(-14deg);
+}
+.icon-arrow {
+  fill: currentColor;
+  transform: rotate(14deg);
 }
 
 .div-button-fruit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .div-fruits-paragraph {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .organic-fruit {
@@ -161,3 +165,7 @@
      margin: auto;
         } */
     
+
+  display: flex;
+}
+

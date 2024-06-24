@@ -92,6 +92,15 @@
 }
 
 .fruit-type {
+    padding-left: 24px;
+    padding-top: 7px;
+    width: 40px;
+    height: 24px;
+    top: 109px;
+    left: 24px;
+    color: #fff;
+    font-size: 16px;
+
   padding-left: 24px;
   padding-top: 7px;
   width: 40px;
@@ -101,6 +110,7 @@
   color: #fff;
   font-size: 16px;
 }
+
 .fruit-price {
   padding: 15px 42px 15px 42px;
   gap: 10px;
@@ -141,5 +151,21 @@
 }
 
 .organic-fruit {
+    display: flex;
+}
+/* .shadow {
+     box-shadow: 0 10px 6px -6px #000000;
+    width: 195px;
+     height: 38px;
+     top: 238px;
+     opacity: 0.1px;
+     background-color: rgba(0, 0, 0, 0.1);
+     border-radius: 70%;
+     position: relative;
+     margin: auto;
+        } */
+    
+
   display: flex;
 }
+

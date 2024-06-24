@@ -153,25 +153,6 @@
 .organic-fruit {
     display: flex;
 }
-/* .shadow {
-     box-shadow: 0 10px 6px -6px #000000;
-    width: 195px;
-     height: 38px;
-     top: 238px;
-     opacity: 0.1px;
-     background-color: rgba(0, 0, 0, 0.1);
-     border-radius: 70%;
-     position: relative;
-     margin: auto;
-        } */
-    
-
-  display: flex;
-}
-
-<<<<<<< Updated upstream
-=======
-}
 @media (max-width:768px),
 (min-width:320px) {
     .tablet-hidden {
@@ -198,4 +179,3 @@
         background-color: #fff;
     }
 }
->>>>>>> Stashed changes

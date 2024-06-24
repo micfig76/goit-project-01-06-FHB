@@ -1,6 +1,4 @@
-
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./footer.css');
 @import url('./contacts.css');
@@ -47,5 +45,5 @@
   --kiwi: #98b37e;
   --raspberry: #e03f5e;
   --hoverfocus: #747bff;
-  --headertext: #AE1332;
+  --headertext: #ae1332;
 }

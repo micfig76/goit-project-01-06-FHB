@@ -9,14 +9,12 @@ footer {
 @media (min-width: 375px) and (max-width: 768px) {
   .container {
     width: 768px;
-    background-color: pink;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     width: 1280px;
-    background-color: peru;
   }
 }
 

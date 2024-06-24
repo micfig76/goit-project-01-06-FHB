@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 32px 0;
 }
+
 .hero-column {
   display: flex;
   flex-direction: column;
@@ -33,6 +34,7 @@
   color: #ffffff;
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
+
 /* PIGUŁA Z DZIEWCZYNĄ */
 .orange {
   overflow: hidden;
@@ -59,12 +61,14 @@
   /* transform: translateX(-10%); */
 }
 .pill-border {
-  position: absolute;
+  /* 
+   position: absolute;
   width: 486px;
   height: 742px;
   border-radius: 500px;
+ 
   border: 1px solid white;
-  transform: translateY(-2%);
+  transform: translateY(-2%); */
 }
 
 /* PIGUŁY Z OWOCAMI  */

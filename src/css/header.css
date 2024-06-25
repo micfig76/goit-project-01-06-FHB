@@ -1,25 +1,66 @@
-.header {
-  padding: 0;
-}
-
-.top-menu-head {
+.top {
   display: flex;
-  text-decoration: none;
-  line-height: 18px;
   align-items: center;
-  padding: 0 24px;
   justify-content: space-between;
-  height: 50px;
-  margin: auto;
   background-color: var(--white);
   color: var(--headertext);
+  height: 50px;
+  line-height: 18px;
+}
+
+@media (min-width: 1280px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .basket {
+    display: none;
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .top-container {
+    width: 768px;
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .top-menu-nav {
+    display: none;
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .basket {
+    display: none;
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .hamburger {
+    display: flex-end;
+
+  }
 }
 
 .nav-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+
 }
 
 .nav-link {
@@ -33,8 +74,18 @@
   color: var(--hoverfocus);
 }
 
+.center-feature {
+  display: flex;
+  gap: 8px;
+}
+
+.logo-icon {
+  display: flex;
+}
+
 .company {
-  padding-left: 12px;
+  color: var(--headertext);
+  line-height: 18px;
 }
 
 .basket {

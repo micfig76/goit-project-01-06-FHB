@@ -1,17 +1,14 @@
 .fruits-header {
-  width: 624px;
-  height: 44px;
-  gap: 0px;
   font-size: 40px;
   font-weight: 500;
   line-height: 44px;
   letter-spacing: -0.04em;
   margin: auto;
   color: #fff;
-  box-shadow: 0px 4px 70px 0px #0000001a;
+  /* box-shadow: 0px 4px 70px 0px #0000001a; */
   display: flex;
   justify-content: center;
-  padding-top: 150px;
+  /* padding-top: 150px; */
 }
 .fruits-paragraph {
   font-size: 14px;
@@ -22,6 +19,7 @@
   box-shadow: 0px 4px 70px 0px #0000001a;
   align-items: center;
   justify-content: center;
+  padding-top: 14px;
 }
 
 .div-fruits-paragraph {
@@ -66,7 +64,7 @@
   background-color: #9b5366;
 }
 
-.orange {
+.oranges {
   background-color: #f47f4c;
   margin-bottom: 24px;
 }
@@ -80,7 +78,7 @@
   height: 465px;
   border-radius: 20px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 .fruit-name {
@@ -91,6 +89,15 @@
 }
 
 .fruit-type {
+    padding-left: 24px;
+    padding-top: 7px;
+    width: 40px;
+    height: 24px;
+    top: 109px;
+    left: 24px;
+    color: #fff;
+    font-size: 16px;
+
   padding-left: 24px;
   padding-top: 7px;
   width: 40px;
@@ -100,14 +107,14 @@
   color: #fff;
   font-size: 16px;
 }
+
 .fruit-price {
-  padding: 15px 42px 15px 42px;
-  gap: 10px;
   border-radius: 200px;
-  opacity: 0px;
-  justify-content: center;
   margin-left: 24px;
-  display: flex;
+  width: 121px;
+  color:#AE1332;
+  height: 42px;
+  border:none;
 }
 
 .fruit-position {
@@ -140,5 +147,33 @@
 }
 
 .organic-fruit {
-  display: flex;
+    display: flex;
 }
+.order-button-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+
+
+}
+@media (max-width:768px),
+(min-width:320px) {
+    .tablet-hidden {
+        display: none;
+    }
+
+    .mobile-hidden {
+        display: contents;
+    }
+
+    .container-fruit {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
+
+
+

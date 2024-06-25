@@ -1,4 +1,45 @@
 .how-it-works-section {
+    color: white;
+    text-align: center;
+    margin-left: 32px;
+    gap: 44px;
+    text-align: center;       
+}
+
+.how-it-works-section .content {
+    width: 624px;
+    height: 156px;
+    gap: 14px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 150px; 
+}
+
+.how-it-works-section h1 {
+    font-size: 40px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    height: 88px;
+    line-height: 44px;
+    margin-bottom: 14px;
+    letter-spacing: -0.4px;
+    text-shadow: 0px 4px 70px 0px #0000001a;
+}
+
+.how-it-works-section p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 526px;
+    height: 54px;
+    text-align: center;
+    margin-bottom: 44px;
+    margin-left: 57px;
+    letter-spacing: -0.4px;
+    text-indent: 6px;
+    text-shadow: 0px 4px 70px 0px #0000001a;
+
   color: #ffffff;
   text-align: center;
 }
@@ -35,6 +76,7 @@
   letter-spacing: -0.4px;
   text-indent: 6px;
   text-shadow: 0px 4px 70px 0px #0000001a;
+
 }
 
 .steps {
@@ -53,18 +95,20 @@
 }
 
 .step {
-  background-color: #ffffff;
-  color: black;
-  border-radius: 20px;
-  margin: 0 auto;
-  height: 128px;
-  width: 389px;
-  display: flex;
-  background-size: cover;
-  align-content: center;
-  align-items: center;
-  box-shadow: 0px 4px 70px 0px #0000001a;
-  background-image: url('img/background-steps.png');
+
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 128px;
+    width: 389px;
+    display: flex;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 70px 0px #0000001a;
+    background-image: url("img/background-steps.png");  
+
 }
 
 .step-header {
@@ -94,18 +138,20 @@
 }
 
 .step-content {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: 'DM Sans';
-  margin: 0 auto;
-  position: absolute;
-  width: 169px;
-  height: 54px;
-  line-height: 18px;
-  letter-spacing: -0.4px;
-  text-align: left;
-  margin-left: 175px;
-  text-shadow: 0px 4px 70px 0px #0000001a;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    margin: 0 auto;
+    position: absolute;
+    width: 169px;
+    height: 54px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    margin-left: 175px;
+    text-shadow: 0px 4px 70px 0px #0000001a;
+
 }
 
 .step:nth-child(2) .step-content {
@@ -118,24 +164,31 @@
   height: 36px;
 }
 
-.gif {
-  width: 860px;
-  height: 476px;
-  border-radius: 20px;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 60px;
+
+.gif{
+    width: 860px;
+    height: 476px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: block;
+  max-width: 100%;
+}
+
+.container-gif {
+    display: flex;
+    margin-bottom: 130px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    /* dod. */
+    max-width: 860px;
+    min-width: 335px;
+    margin: 0 auto;
 }
 
 .container-gif {
   display: flex;
   margin-bottom: 130px;
-}
-.container {
-  display: flex;
-  margin-bottom: 150px;
-
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
 }

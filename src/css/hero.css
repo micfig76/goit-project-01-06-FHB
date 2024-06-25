@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.title-div {
+.title-div-hero {
   height: 198px;
   margin-top: 64px;
   margin-bottom: -140px;
@@ -18,7 +18,7 @@
   gap: 103px;
 }
 
-.main-title {
+.main-title-hero {
   text-transform: uppercase;
   font-size: 64px;
   font-weight: 500;
@@ -197,15 +197,21 @@
 .blur-banana-box {
   width: 183px;
   height: 124px;
-  filter: blur(7px);
-  background: url('path_to_image');
-  transform: rotate(-20deg);
+  position: relative
 }
+
+.blur-banana {
+  transform: rotate(-20deg); 
+  position: absolute;
+  }
 
 .blur-strawberry-box {
   width: 120px;
   height: 120px;
-  filter: blur(8px);
-  background: url('path_to_image');
+  position: relative
+}
+
+.blur-strawberry {
+  position: absolute; 
 }
 */

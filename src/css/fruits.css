@@ -21,7 +21,6 @@
   justify-content: center;
   padding-top: 14px;
 }
-
 .div-fruits-paragraph {
   width: 547px;
   height: 54px;
@@ -30,18 +29,15 @@
   padding-top: 14px;
   padding-bottom: 44px;
 }
-
 .fruit-card {
   --card-width: 390px;
 }
-
 .fruits-cards {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   gap: 24px;
 }
-
 .strawberry {
   background-color: #f8766b;
 }
@@ -63,16 +59,13 @@
 .plums {
   background-color: #9b5366;
 }
-
 .oranges {
   background-color: #f47f4c;
   margin-bottom: 24px;
 }
-
 .kiwi {
   background-color: #98b37e;
 }
-
 .item-card {
   width: 389px;
   height: 465px;
@@ -89,15 +82,14 @@
 }
 
 .fruit-type {
-    padding-left: 24px;
-    padding-top: 7px;
-    width: 40px;
-    height: 24px;
-    top: 109px;
-    left: 24px;
-    color: #fff;
-    font-size: 16px;
-
+  padding-left: 24px;
+  padding-top: 7px;
+  width: 40px;
+  height: 24px;
+  top: 109px;
+  left: 24px;
+  color: #fff;
+  font-size: 16px;
   padding-left: 24px;
   padding-top: 7px;
   width: 40px;
@@ -107,7 +99,6 @@
   color: #fff;
   font-size: 16px;
 }
-
 .fruit-price {
   border-radius: 200px;
   margin-left: 24px;
@@ -116,7 +107,6 @@
   height: 42px;
   border:none;
 }
-
 .fruit-position {
   margin-bottom: 5px;
   margin-left: 47px;
@@ -132,20 +122,17 @@
   fill: currentColor;
   transform: rotate(14deg);
 }
-
 .div-button-fruit {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .div-fruits-paragraph {
   display: flex;
   margin: auto;
   align-items: center;
   justify-content: center;
 }
-
 .organic-fruit {
     display: flex;
 }
@@ -153,25 +140,25 @@
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
-
-
 }
 @media (max-width:768px),
 (min-width:320px) {
     .tablet-hidden {
         display: none;
     }
-
     .mobile-hidden {
         display: contents;
     }
-
     .container-fruit {
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }
-
+.item-card {
+  flex-basis: calc((100% - 10px) / 2);
+}
+.fruits-cards li:nth-child(7+n){
+  display:none;
+}
 }
 
 

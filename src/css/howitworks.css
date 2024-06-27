@@ -275,7 +275,7 @@
 @media (min-width: 375px) and (max-width: 768px){
   .step {
       width: 335px;
-      height: 112px;
+      /* height: 112px; */
       
       /* align-content: center;
       align-items: center; */

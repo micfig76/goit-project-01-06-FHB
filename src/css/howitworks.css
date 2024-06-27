@@ -7,6 +7,7 @@
 
 .text {
   margin-left: 32px;
+
 }
 
 .how-it-works-section .content {
@@ -16,6 +17,7 @@
     margin: 0 auto;
     max-width: 1200px;
     /* margin-top: 150px;  */
+
 }
 
 .how-it-works-section h1 {
@@ -57,9 +59,11 @@
     margin-top: 44px;
     position: relative;
     flex-wrap: wrap;
+
 }
 
 .step {
+
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -68,7 +72,6 @@
     width: 389px;
     display: flex;
     background-size: cover;
-    
     box-shadow: 0px 4px 70px 0px #0000001a;
     background-image: url(./img/background-steps.png);  
 }
@@ -101,17 +104,19 @@
     text-align: center;
     margin: 0 auto;
     /* margin-left: 20px; */
+
 }
 
 .step:nth-child(2) .step-header {
-    background-color: #A1C864;
+  background-color: #a1c864;
 }
 
 .step:nth-child(3) .step-header {
-    background-color: #F5CE13;
+  background-color: #f5ce13;
 }
 
 .step-content {
+
     font-size: 14px;
     font-weight: 400;
     font-family: 'DM Sans';
@@ -135,7 +140,9 @@
 .step-content:nth-child(3) {
     width: 199px;
     height: 36px;
+
 }
+
 
 .gif{
     width: 860px;
@@ -145,7 +152,6 @@
     margin: 0 auto;
     margin-top: 60px;
     /*  */
-    
 }
 
 .container-gif {
@@ -153,8 +159,7 @@
     margin-bottom: 130px;
     justify-content: center;
     text-align: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
 /* wartości dla komputera */
@@ -350,3 +355,4 @@
       
     }
 }
+

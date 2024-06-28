@@ -141,7 +141,7 @@
   }
 }
 /* Widok tabletowy  */
-@media (min-width: 678px) and (max-width: 900px) {
+@media (min-width: 678px) and (max-width: 1279px) {
   .item-card:nth-child(-n+8) {
     display: block;
   }
@@ -150,9 +150,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 /* Widok desktop*/
-@media (min-width: 901px) {
+@media (min-width: 1280px) {
   .item-card {
     display: block;
   }

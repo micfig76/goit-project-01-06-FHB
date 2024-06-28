@@ -5,10 +5,8 @@
   letter-spacing: -0.04em;
   margin: auto;
   color: #fff;
-  /* box-shadow: 0px 4px 70px 0px #0000001a; */
   display: flex;
   justify-content: center;
-  /* padding-top: 150px; */
 }
 .fruits-paragraph {
   font-size: 14px;
@@ -25,7 +23,7 @@
   width: 547px;
   height: 54px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1;
   padding-top: 14px;
   padding-bottom: 44px;
 }
@@ -72,24 +70,15 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  display: none;
 }
-
 .fruit-name {
   font-size: 32px;
   padding-left: 24px;
   padding-top: 64px;
   color: #fff;
 }
-
 .fruit-type {
-  padding-left: 24px;
-  padding-top: 7px;
-  width: 40px;
-  height: 24px;
-  top: 109px;
-  left: 24px;
-  color: #fff;
-  font-size: 16px;
   padding-left: 24px;
   padding-top: 7px;
   width: 40px;
@@ -103,9 +92,9 @@
   border-radius: 200px;
   margin-left: 24px;
   width: 121px;
-  color:#AE1332;
+  color: #AE1332;
   height: 42px;
-  border:none;
+  border: none;
 }
 .fruit-position {
   margin-bottom: 5px;
@@ -134,33 +123,40 @@
   justify-content: center;
 }
 .organic-fruit {
-    display: flex;
+  display: flex;
 }
 .order-button-div {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
 }
-@media (max-width:768px),
-(min-width:320px) {
-    .tablet-hidden {
-        display: none;
-    }
-    .mobile-hidden {
-        display: contents;
-    }
-    .container-fruit {
-        display: flex;
-        flex-wrap: wrap;        
-    }
-.item-card {
-  flex-basis: calc((100% - 10px) / 2);
+/* Widok mobilny */
+@media (max-width: 677px) {
+  .item-card:nth-child(-n+6) {
+    display: block;
+  }
+  .fruits-cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-.fruits-cards li:nth-child(7+n){
-  display:none;
+/* Widok tabletowy  */
+@media (min-width: 678px) and (max-width: 1279px) {
+  .item-card:nth-child(-n+8) {
+    display: block;
+  }
+  .fruits-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+/* Widok desktop*/
+@media (min-width: 1280px) {
+  .item-card {
+    display: block;
+  }
+  .fruits-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-
-
-
-

@@ -22,11 +22,12 @@
   text-transform: uppercase;
   font-size: 64px;
   font-weight: 500;
-  line-height: 64px;
+  line-height: 100%;
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  z-index: 26;
 }
 
 /* PIGUŁA Z DZIEWCZYNĄ */
@@ -57,9 +58,6 @@
 .pill-border {
   position: absolute;
   transform: translateY(-2%);
-  width: 486px;
-  height: 742px;
-  border-radius: 500px;
 }
 
 /* PIGUŁY Z OWOCAMI  */
@@ -193,25 +191,32 @@
   align-items: center;
 }
 
-/*
 .blur-banana-box {
   width: 183px;
   height: 124px;
-  position: relative
+  position: relative;
 }
 
-.blur-banana {
-  transform: rotate(-20deg); 
+.blur-banana-img {
+  transform: rotate(5deg);
   position: absolute;
-  }
+  margin-top: 65px;
+  margin-left: 130px;
+  z-index: 0;
+}
 
 .blur-strawberry-box {
   width: 120px;
   height: 120px;
-  position: relative
+  position: relative;
+  z-index: 0;
 }
 
-.blur-strawberry {
-  position: absolute; 
+.blur-strawberry-img {
+  position: absolute;
+  margin-top: -81px;
+  margin-left: -19px;
+  z-index: 0;
 }
+/*
 */
